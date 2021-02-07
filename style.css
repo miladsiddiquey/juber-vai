@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+.meal-search{
+    margin-top:50px;
+}
+.search-control{
+    width:300px;
+    height:50px;
+    border:none;
+    background-color: gainsboro;
+    padding:5px;
+}
+.search-btn{
+    width:100px;
+    height:50px;
+    background-color: tomato;
+    border:none;
+    margin-left:-10px;
+    margin-top:-5px;
+}
+
+/*  */
+
+.meal-result{
+    margin-top: 4rem;
+}
+#meal{
+    margin: 2.4rem 0;
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+}
+.meal-item{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+}
+
+.meal-img img{
+    width: 100%;
+    display: block;
+}
+.meal-name{
+    padding: 1.5rem 0.5rem;
+}
+.meal-name h3{
+    font-size: 1.4rem;
+}
+
+
+/*  */
+.notFound{
+    grid-template-columns: 1fr!important;
+    color: tomato;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
